@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgxSpinnerService } from 'ngx-spinner';
+import { HttpClient } from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
@@ -8,18 +8,16 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class AppComponent {
   title = 'Binge';
-  movieName: string;
-
-  constructor(private spinner: NgxSpinnerService) {
-
-  }
-
-  public getMovieName(): void {
-    this.spinner.show();
-    console.log('function called', this.movieName);
-    setTimeout(() => {
-      /** spinner ends after 5 seconds */
-      this.spinner.hide();
-    }, 5000);
-  }
+	private data:any = []
+	  constructor(private http: HttpClient) {
+	   
+	 }
+  public getMovieName() {
+  const url ='http://127.0.0.1:5000/title/The%20Dark%20Knight%20Rises'
+   this.http.get(url).subscribe((res)=>{
+     this.data = res
+     console.log(this.data)
+   })  }
 }
+
+ 
