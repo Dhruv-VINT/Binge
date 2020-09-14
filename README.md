@@ -12,12 +12,12 @@ Recommendation Systems are a type of information filtering systems as they impro
 They are used to predict the **rating** or **preference** that a user would give to an item. Almost every major tech company has applied them in some form or the other: Amazon uses it to suggest products to customers, YouTube uses it to decide which video to play next on autoplay, and Facebook uses it to recommend pages to like and people to follow. Moreover, companies like Netflix and Spotify depend highly on the effectiveness of their recommendation engines for their business and success.
 #### Types of Recommendation System :-
 
-    1). Popularity Based
-    2). Classification Based
-    3). Content Based
-    4). Collaborative Based
-    5). Hybrid Based (Content + Collaborative)
-    6). Association Based Rule Mining
+    1.) Popularity Based
+    2.) Classification Based
+    3.) Content Based
+    4.) Collaborative Based
+    5.) Hybrid Based (Content + Collaborative)
+    6.) Association Based Rule Mining
 
 In this project, we'll use Content based recommender system. This is based on product description. Here we would convert movie titles into a vector to find its cosine similarity. Similar movie would have a high cosine similarity and thus would be recommended to the user.<br>
 We'll take use of the following parameters :-
