@@ -1,0 +1,19 @@
+<div id="output">
+  
+  <mat-form-field class="example-chip-list" style=" display: block;
+    justify-content: center;margin: 0 450px 0 450px;">
+    <mat-chip-list #chipList aria-label="Fruit selection">
+      <mat-chip *ngFor="let movie of movieData" [selectable]="selectable"
+               [removable]="removable" (removed)="remove(movie)">
+        {{movie.name}}
+        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      </mat-chip>
+      <input placeholder="New movie..."
+             [matChipInputFor]="chipList"
+             [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+             [matChipInputAddOnBlur]="addOnBlur"
+             (matChipInputTokenEnd)="add($event)">
+    </mat-chip-list>
+  </mat-form-field>
+
+</div>
