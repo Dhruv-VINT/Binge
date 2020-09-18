@@ -1,5 +1,7 @@
 # Binge📽
-This project was generated with Angular CLI version 10.1.1.<br>
+- generated with Angular CLI version 10.1.1.<br>
+- This project was developed over the course of **FOSS Hack 2020 held during 12th & 13th Sep 2020.** <br>
+  (https://fossunited.org/hackathon/2020/projects) 
 ***
 You just watched an amazing movie and thought "Wow! I wish i could watch more movies like this." and you ask a friend for his/her suggestions? <br>
 Well, Binge is just the THING !<br>
