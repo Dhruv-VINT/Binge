@@ -5,11 +5,11 @@
 ***
 You just watched an amazing movie and thought "Wow! I wish i could watch more movies like this." and you ask a friend for his/her suggestions? <br>
 Well, Binge is just the THING !<br>
-**Binge** is a movie recommendation system that seeks to predict an item based rating/ preference a user would give to an item in past history.<br>
+**Binge** is a movie recommendation system that seeks to suggest an item based rating/ preference a user would give to an item in past history.<br>
 In one line -> **Specialized content for everyone.**
 <br>
 <br>
-## So What are recommendation systems exaclty?
+## So What are recommendation systems exactly?
 Recommendation Systems are a type of information filtering systems as they improve the quality of search results and provides items that are more relevant to the search item or are realted to the search history of the user.<br>
 They are used to predict the **rating** or **preference** that a user would give to an item. Almost every major tech company has applied them in some form or the other: Amazon uses it to suggest products to customers, YouTube uses it to decide which video to play next on autoplay, and Facebook uses it to recommend pages to like and people to follow. Moreover, companies like Netflix and Spotify depend highly on the effectiveness of their recommendation engines for their business and success.
 #### Types of Recommendation System :-
